@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the saved model
-with open('iris_model.pkl', 'rb') as f:
+with open('model/Iris_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Create a new Flask app

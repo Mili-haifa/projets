@@ -12,6 +12,7 @@ app = Flask(__name__)
 # Define the API endpoint
 @app.route('/predict', methods=['POST'])
 def predict():
+    
     # Get the input data from the request
     data = request.get_json(force=True)
 
